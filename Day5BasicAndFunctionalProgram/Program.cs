@@ -16,6 +16,8 @@ namespace Day5BasicAndFunctionalProgram
             Console.WriteLine("Enter A Choice :");
             Console.WriteLine("0.Flip the Coin Program");
             Console.WriteLine("1.Leap Year Program");
+            Console.WriteLine("2.Check the power of 2");
+
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -25,6 +27,10 @@ namespace Day5BasicAndFunctionalProgram
                     break;
                 case 1:
                     LeapYearOrNot.ALeapYear();
+                    break;
+                case 2:
+                    PowerOfTwo powerOfTwo = new PowerOfTwo();
+                    powerOfTwo.ApowerOfTwo();
                     break;
 
 
