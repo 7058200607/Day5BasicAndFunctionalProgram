@@ -20,6 +20,7 @@ namespace Day5BasicAndFunctionalProgram
             Console.WriteLine("3.Calculate Harmonic Number");
             Console.WriteLine("4.Calculate  prime Factorization of number");
             Console.WriteLine("5.Find Quotient And Remainder");
+            Console.WriteLine("6.Swap A Given Number");
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -44,6 +45,9 @@ namespace Day5BasicAndFunctionalProgram
                     break;
                 case 5:
                     QuetientAndRemainder.AQuotientAndRemainder();
+                    break;
+                case 6:
+                    SwapTwoNumber.ASwapNumber();
                     break;
 
             }
