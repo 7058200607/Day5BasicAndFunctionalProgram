@@ -21,6 +21,7 @@ namespace Day5BasicAndFunctionalProgram
             Console.WriteLine("4.Calculate  prime Factorization of number");
             Console.WriteLine("5.Find Quotient And Remainder");
             Console.WriteLine("6.Swap A Given Number");
+            Console.WriteLine("7.Number is Even Or Odd");
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -48,6 +49,9 @@ namespace Day5BasicAndFunctionalProgram
                     break;
                 case 6:
                     SwapTwoNumber.ASwapNumber();
+                    break;
+                case 7:
+                    EvenOrOddNumber.AEvenOddNumber();
                     break;
 
             }
