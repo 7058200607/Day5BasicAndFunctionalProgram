@@ -18,6 +18,7 @@ namespace Day5BasicAndFunctionalProgram
             Console.WriteLine("1.Leap Year Program");
             Console.WriteLine("2.Check the power of 2");
             Console.WriteLine("3.Calculate Harmonic Number");
+            Console.WriteLine("4.Calculate  prime Factorization of number");
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -37,7 +38,9 @@ namespace Day5BasicAndFunctionalProgram
                     HarmonicFunction harmonicNumber = new HarmonicFunction();
                     harmonicNumber.AHarmonicNumber();
                     break;
-
+                case 4:
+                    PrimeFactorization.APrimeFactorization();
+                    break;
 
             }
         }
