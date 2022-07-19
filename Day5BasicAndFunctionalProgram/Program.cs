@@ -23,6 +23,7 @@ namespace Day5BasicAndFunctionalProgram
             Console.WriteLine("6.Swap A Given Number");
             Console.WriteLine("7.Number is Even Or Odd");
             Console.WriteLine("8.Check Alphabet is VoWel or not");
+            Console.WriteLine("9.check Largest Number in the given 3 value");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -56,8 +57,10 @@ namespace Day5BasicAndFunctionalProgram
                 case 8:
                     VowelOrConsonant.AVowelorConsonent();
                     break;
-
-
+                case 9:
+                    FindLargestNumber findLargestNumber = new FindLargestNumber();
+                    findLargestNumber.ALargestNumber();
+                    break;
             }
         }
     }
